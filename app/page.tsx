@@ -251,7 +251,7 @@ export default function DualResumeSite() {
         highlights: lang === "EN" ? "Highlights" : "จุดเด่น",
         experience: lang === "EN" ? "Experience" : "ประสบการณ์",
         skills: lang === "EN" ? "Skills" : "ทักษะ",
-        print: lang === "EN" ? "Print / Save PDF" : "พิมพ์ / บันทึก PDF",
+        print: lang === "EN" ? "Print" : "พิมพ์",
         copy: lang === "EN" ? "Copy ATS text" : "คัดลอกข้อความ ATS",
         share: lang === "EN" ? "Share" : "แชร์",
         langToggle: lang === "EN" ? "ภาษาไทย" : "English",
