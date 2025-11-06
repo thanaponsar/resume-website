@@ -6,19 +6,22 @@ const CONTACT = {
   phoneDisplay: "+61 493 250 111",
   phoneHref: "+61493250111",
   email: "thanaponsarasap@gmail.com",
-  linkedin: "https://www.linkedin.com/in/thanapon-sarasap",
+  /* linkedin: "https://www.linkedin.com/in/thanapon-sarasap", */
   website: null as string | null,
 };
 
 const FARMWORK = {
-  title: "Farm Work Resume — Strawberry Farm Worker",
+  title: "Open to Farm, Hospitality, General labour opportunities.",
   summary:
-    "Strawberry farm worker on WHV with strong piece-rate productivity. Experienced in picking, leaf cleaning, runner cutting, and weeding. Safety-conscious, physically fit, reliable.",
+    "Motivated and adaptable Working Holiday Visa (Subclass 462) holder with a strong work ethic, reliability, and willingness to take on physical and hands-on tasks. Background in IT/Quality Assurance with transferable skills in problem solving, teamwork, and attention to detail. Ready to contribute to farm, hospitality, or general labor roles across Australia.",
   highlights: [
-    "Tray/Kg logging by block (King Rd / Pineapple), rubbish (R kg) tracking",
-    "Understands payslips, 15% tax; CSV export for supervisors",
-    "PPE: rain gear, sun safety, nitrile gloves",
-    "Certs: RSA & RSG (22 Sep 2025)",
+    "Reliable & hardworking with a positive attitude",
+    "Quick learner",
+    "Adaptable to new environments and tasks",
+    "Organised and able to manage time effectively",
+    "Physically fit and safety-conscious",
+    "Flexible with hours, shifts",
+    "RSA & RSG Certified",
   ],
   experience: [
     {
@@ -26,8 +29,19 @@ const FARMWORK = {
       company: "E&S Super Growth Pty Ltd — Caboolture, QLD",
       period: "Sep 2025 – Present",
       bullets: [
-        "Picked strawberries to quality standards; kept block-based tray/kg records.",
+        "Picked strawberries to quality standards",
         "Plant maintenance: leaf cleaning, runner cutting, and weeding.",
+      ],
+    },
+    {
+      role: "IT & Quality Assurance Professional – Thailand (2018 – 2025)",
+      company: "Thailand",
+      period: "2018 – 2025",
+      bullets: [
+        "Built strong attention to detail and accuracy through testing and quality checks",
+        "Adapted quickly to changing projects, environments, and deadlines",
+        "Worked closely with diverse teams to achieve common goals",
+        "Applied problem-solving skills to deliver results under pressure",
       ],
     },
   ],
@@ -35,8 +49,6 @@ const FARMWORK = {
     "Strawberry picking & grading",
     "Leaf cleaning & runner cutting",
     "Weeding & field hygiene",
-    "Rain-day workflow & PPE",
-    "Record keeping (trays/kg, R kg, CSV)",
     "Teamwork & communication",
   ],
   chips: { date: "Sep 2025 – Now", payType: "Piece-rate", crop: "Strawberry" },

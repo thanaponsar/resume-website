@@ -265,6 +265,22 @@ export default function ResumePage({ data, variant }: { data: ResumeData; varian
                 </CardContent>
               </Card>
             </aside>
+
+            {/* Education Section */}
+            <section className="space-y-5">
+              <Card>
+                <CardHeader className="pb-2">
+                  <CardTitle className="text-base">Education</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-2 text-sm text-muted-foreground">
+                  <div>
+                    <h4 className="font-semibold text-foreground">B.Sc. Software Engineering</h4>
+                    <p>Mae Fah Luang University — Thailand</p>
+                  </div>
+                </CardContent>
+              </Card>
+            </section>
+
           </motion.div>
         </main>
       </div>
@@ -276,8 +292,8 @@ export default function ResumePage({ data, variant }: { data: ResumeData; varian
             <div className="text-xs text-muted-foreground px-2 truncate">{data.title}</div>
             <div className="flex items-center gap-2">
               <Button variant="secondary" size="sm" onClick={handleCopyATS}><ClipboardList className="mr-2 size-4" />{labels.copy}</Button>
-               {/*<Button variant="secondary" size="sm" onClick={handleShare}><Share2 className="mr-2 size-4" />{labels.share}</Button>
-             <Button size="sm" onClick={handleSavePDF}><FileDown className="mr-2 size-4" />{labels.savePdf}</Button>
+               {/* <Button variant="secondary" size="sm" onClick={handleShare}><Share2 className="mr-2 size-4" />{labels.share}</Button>
+              <Button size="sm" onClick={handleSavePDF}><FileDown className="mr-2 size-4" />{labels.savePdf}</Button>
               <Button size="sm" onClick={handlePrint}><Printer className="mr-2 size-4" />{labels.print}</Button> */}
             </div>
           </div>

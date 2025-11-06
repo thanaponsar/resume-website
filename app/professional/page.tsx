@@ -11,9 +11,9 @@ const CONTACT = {
 };
 
 const PROFESSIONAL = {
-  title: "Professional Resume — QA / IT",
+  title: "Software Tester / QA",
   summary:
-    "QA professional across manual & automation testing, SDLC/Agile, API health checks and release quality. Led testing scope for enterprise insurance platforms; Robot Framework, Zephyr/TestRail, JIRA, Jenkins/Newman.",
+    "QA Analyst with expertise in manual/automation testing, API checks, defect management, and Agile SDLC. Experienced in enterprise insurance systems, Robot Framework, Jenkins/Newman, Zephyr Scale, TestRail, and JIRA.",
   highlights: [
     "SDLC, Agile, BDD; test planning & execution",
     "Robot Framework (web/UI)",
@@ -27,9 +27,9 @@ const PROFESSIONAL = {
       company: "Infosys Services (Thailand) Ltd., Bangkok",
       period: "12/2024 – 04/2025",
       bullets: [
-        "Managed test scope and ticket readiness to meet client expectations.",
-        "Optimized test execution, environments and resources for efficiency.",
-        "Collaborated with BAs to enforce quality standards.",
+        "Delivered high-quality solutions by ensuring all assigned scope and tickets met clientexpectations.",
+        "Optimized testing efficiency through effective management of test case execution, environments,and resources.",
+        "Collaborated closely with business analysts to uphold and enforce quality standards.",
       ],
     },
     {
@@ -37,9 +37,10 @@ const PROFESSIONAL = {
       company: "Allianz Technology (Thailand) Co., Ltd., Bangkok",
       period: "04/2023 – 08/2024",
       bullets: [
-        "Ensured scope quality; guided stakeholders on business logic.",
-        "Implemented defect tracking & cross-team collaboration.",
-        "Managed test execution and environments for efficiency.",
+        "Ensured the quality of assigned scope/tickets meets the client's expectations.",
+        "Offered guidance and conducted demonstrations for stakeholders on business logic aspects.",
+        "Implemented defect tracking and management processes, fostering collaboration with project teams to promptly address issues and enhance product quality.",
+        "Managed the execution of test cases and scenarios, overseeing test environments and resources to ensure efficient testing processes.",
       ],
     },
     {
@@ -49,7 +50,10 @@ const PROFESSIONAL = {
       bullets: [
         "Created/Maintained test cases (Zephyr Scale) and documented results.",
         "Analyzed defects with repro steps (JIRA); maintained Robot Framework automation.",
-        "Built API health checks via Jenkins; tested ETL data pipelines.",
+        "Developed API health checks to ensure system integration availability and scheduling before business operations, leveraging Newman integrated with Jenkins.",
+        "Worked closely with the development team to uphold software quality standards.",
+        "Formulated comprehensive test cases and conducted testing for ETL projects, ensuring accurate data transformation and loading into target systems.",
+        "Worked independently and collaboratively with other Quality Assurance analysts on analyzing requirements, tasks, results, and defects.",
       ],
     },
     {
@@ -58,7 +62,8 @@ const PROFESSIONAL = {
       period: "07/2019 – 12/2020",
       bullets: [
         "Developed test cases and executed tests using TestRail; tracked defects in JIRA.",
-        "Maintained Robot Framework web automation; API checks with Newman + Jenkins.",
+        "Maintained Robot Framework web automation test script to sustain optimal performance.; API checks with Newman + Jenkins.",
+        "Worked closely with the development team to ensure the quality of the software.",
       ],
     },
     {
@@ -66,8 +71,8 @@ const PROFESSIONAL = {
       company: "Digio (Thailand) Co., Ltd., Bangkok",
       period: "06/2018 – 06/2019",
       bullets: [
-        "Planned & executed manual tests for QR payments (PromptPay Tag29, VISA/MasterCard, Tag30).",
-        "Built Robot Framework automation for QR generator API; tested Smart EDC (Android).",
+        "Planned & executed manual tests for QR payments (QR PromptPay, QR VISA/MasterCard, QR Payment).",
+        "Developed automation testing script to test QR code generator API using Robot Framework.; tested Smart EDC (Android).",
       ],
     },
   ],
@@ -77,7 +82,7 @@ const PROFESSIONAL = {
     "JIRA / Zephyr Scale / TestRail",
     "API Testing / ETL Testing",
     "SQL basics",
-    "Agile / Scrum",
+    "SDLC / Agile",
   ],
 };
 
