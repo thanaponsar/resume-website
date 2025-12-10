@@ -5,6 +5,8 @@ const CONTACT = {
   location: "Caboolture, QLD, Australia",
   phoneDisplay: "+61 493 250 111",
   phoneHref: "+61493250111",
+  phoneTHDisplay: "+66 956 696 801",
+  phoneTHHref: "+66956696801",
   email: "thanaponsarasap@gmail.com",
   linkedin: "https://www.linkedin.com/in/thanapon-sarasap",
   website: null as string | null,

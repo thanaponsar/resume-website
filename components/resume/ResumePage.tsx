@@ -29,6 +29,8 @@ type ResumeData = {
   location: string;
   phoneDisplay: string;
   phoneHref: string;
+  phoneTHDisplay: string;
+  phoneTHHref: string;
   email: string;
   linkedin?: string | null;
   website?: string | null;
@@ -125,7 +127,7 @@ export default function ResumePage({ data, variant }: { data: ResumeData; varian
   const handleCopyATS = async () => {
     const lines: string[] = [];
     lines.push(`${data.name} — ${data.location}`);
-    lines.push(`Phone: ${data.phoneDisplay} • Email: ${data.email}`);
+    lines.push(`Phone: ${data.phoneDisplay} ${data.phoneTHDisplay}  • Email: ${data.email}`);
     if (data.linkedin) lines.push(`LinkedIn: ${data.linkedin}`);
     lines.push("");
     lines.push("SUMMARY");
@@ -189,6 +191,7 @@ export default function ResumePage({ data, variant }: { data: ResumeData; varian
             <CardContent className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
               <span className="inline-flex items-center gap-1"><MapPin className="size-4" />{data.location}</span>
               <a className="inline-flex items-center gap-1 hover:underline" href={`tel:${data.phoneHref}`}><Phone className="size-4" />{data.phoneDisplay}</a>
+              <a className="inline-flex items-center gap-1 hover:underline" href={`tel:${data.phoneTHHref}`}><Phone className="size-4" />{data.phoneTHDisplay}</a>
               <a className="inline-flex items-center gap-1 hover:underline" href={`mailto:${data.email}`}><Mail className="size-4" />{data.email}</a>
               {data.linkedin && (
                 <a className="inline-flex items-center gap-1 hover:underline" href={data.linkedin} target="_blank" rel="noreferrer">
@@ -286,19 +289,19 @@ export default function ResumePage({ data, variant }: { data: ResumeData; varian
       </div>
 
       {/* Actions (not in PDF) */}
-      <div className="sticky bottom-3 z-40 no-pdf">
+      {/*<div className="sticky bottom-3 z-40 no-pdf">
         <div className="mx-auto max-w-5xl px-4">
           <div className="rounded-2xl border bg-background/95 shadow-lg backdrop-blur p-2 flex items-center gap-2 justify-between">
             <div className="text-xs text-muted-foreground px-2 truncate">{data.title}</div>
             <div className="flex items-center gap-2">
               <Button variant="secondary" size="sm" onClick={handleCopyATS}><ClipboardList className="mr-2 size-4" />{labels.copy}</Button>
-               {/* <Button variant="secondary" size="sm" onClick={handleShare}><Share2 className="mr-2 size-4" />{labels.share}</Button>
+                <Button variant="secondary" size="sm" onClick={handleShare}><Share2 className="mr-2 size-4" />{labels.share}</Button>
               <Button size="sm" onClick={handleSavePDF}><FileDown className="mr-2 size-4" />{labels.savePdf}</Button>
-              <Button size="sm" onClick={handlePrint}><Printer className="mr-2 size-4" />{labels.print}</Button> */}
+              <Button size="sm" onClick={handlePrint}><Printer className="mr-2 size-4" />{labels.print}</Button>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Print styles */}
       <style>{`
